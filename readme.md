@@ -1,44 +1,56 @@
-Absolutely, Manish! Based on your request and your expertise in full-stack development, here's a tailored concept and setup guide for your **Mini-Vendor-Catalog-Manager**—a streamlined platform for managing vendor product catalogs, ideal for small businesses or B2B marketplaces.
+# Mini-Vendor-Catalog-Manager
+
+**Live Demo:** [https://mern-ecommerce-frontend-gamma.vercel.app/](https://mern-ecommerce-frontend-gamma.vercel.app/)
+
+**LinkedIn:** [Manish Mahawar](https://www.linkedin.com/in/manishmahawar20/)
 
 ---
 
-## 🛍️ Mini-Vendor-Catalog-Manager  
-**A lightweight, scalable catalog management system for vendors, built with MERN Stack, Prisma, and Shadcn UI.**
+## 🛍️ Mini-Vendor-Catalog-Manager
 
-### 🔧 Tech Stack
-| Layer        | Technology Used                     |
-|-------------|--------------------------------------|
-| Frontend     | React.js + Shadcn UI + Tailwind CSS |
-| Backend      | Node.js + Express.js                |
-| Database     | PostgreSQL (via Prisma ORM)         |
-| Auth         | JWT + OTP (optional)                |
-| Deployment   | Vercel (Frontend) + Render (Backend)|
-| Optional     | Socket.io (for real-time updates)   |
+A lightweight, scalable catalog management system for vendors, built with MERN Stack, Prisma, and Shadcn UI.
+
+---
+
+## 🔧 Tech Stack
+
+| Layer      | Technology Used                      |
+| ---------- | ------------------------------------ |
+| Frontend   | React.js + Shadcn UI + Tailwind CSS  |
+| Backend    | Node.js + Express.js                 |
+| Database   | PostgreSQL (via Prisma ORM)          |
+| Auth       | JWT + OTP (optional)                 |
+| Deployment | Vercel (Frontend) + Render (Backend) |
+| Optional   | Socket.io (for real-time updates)    |
 
 ---
 
 ## ✨ Key Features
 
 ### 👤 Vendor Dashboard
-- Add/edit/delete product listings
-- Upload product images and documents
-- Set pricing, stock, and availability
-- View product performance analytics
+
+* Add/edit/delete product listings
+* Upload product images and documents
+* Set pricing, stock, and availability
+* View product performance analytics
 
 ### 📦 Product Catalog
-- Category-based filtering
-- Search by name, tags, or vendor
-- Pagination and sorting
-- Soft delete with restore option
+
+* Category-based filtering
+* Search by name, tags, or vendor
+* Pagination and sorting
+* Soft delete with restore option
 
 ### 🔐 Authentication & Roles
-- Vendor login/signup with OTP verification
-- Admin panel for catalog moderation
-- Role-based access control (RBAC)
+
+* Vendor login/signup with OTP verification
+* Admin panel for catalog moderation
+* Role-based access control (RBAC)
 
 ### 📊 Analytics (Optional)
-- Product views, clicks, and conversion tracking
-- Export reports in CSV format
+
+* Product views, clicks, and conversion tracking
+* Export reports in CSV format
 
 ---
 
@@ -64,12 +76,14 @@ mini-vendor-catalog-manager/
 ## 🚀 Setup Instructions
 
 ### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/your-username/mini-vendor-catalog-manager.git
 cd mini-vendor-catalog-manager
 ```
 
 ### 2. Backend Setup
+
 ```bash
 cd backend
 npm install
@@ -80,6 +94,7 @@ npm run dev
 ```
 
 ### 3. Frontend Setup
+
 ```bash
 cd frontend
 npm install
@@ -89,25 +104,17 @@ npm run dev
 ---
 
 ## 🧪 Demo Credentials (Optional)
-```bash
+
+```
 email: vendor@demo.com
 password: vendor123
 ```
 
 ---
 
-## 🌐 Live Preview (Optional)
-If deployed:
-- [Frontend](https://mini-vendor.vercel.app)
-- [Backend API](https://mini-vendor-api.onrender.com)
-
----
-
 ## 📣 Bonus Suggestions
-- Integrate Stripe for vendor subscription tiers
-- Add image compression via Cloudinary
-- Enable real-time stock updates with Socket.io
 
----
+* Integrate Stripe for vendor subscription tiers
+* Add image compression via Cloudinary
+* Enable real-time stock updates with Socket.io
 
-Would you like me to scaffold the README.md for this project next? Or generate the Prisma schema and basic Express routes to kickstart development?
